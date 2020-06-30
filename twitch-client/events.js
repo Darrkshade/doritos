@@ -33,6 +33,6 @@ client.on("resub", (channel, username, months, message, userstate, methods) => {
     emoji = "dancepls";
   }
 
-  let messageToSend = `/me ${emoji} Welcome back ${username}! ${emoji} , Thank you for your ${userstate["msg-param-cumulative-months"]} Months`;
+  let messageToSend = `/me ${emoji} Welcome back ${username}! ${emoji} Thank you for your ${userstate["msg-param-cumulative-months"]} Months`;
   client.say(channel, messageToSend);
 });
