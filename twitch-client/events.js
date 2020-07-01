@@ -30,7 +30,7 @@ client.on("resub", (channel, username, months, message, userstate, methods) => {
   let emoji = "";
 
   if (channel == "#pandatv") {
-    emoji = "dancepls";
+    emoji = "SubHYPE";
   }
 
   let messageToSend = `/me ${emoji} Welcome back ${username}! Thank you for your ${userstate["msg-param-cumulative-months"]} Months ${emoji}`;
